@@ -1,7 +1,7 @@
 const apiConfig = {
-  clientId: '60tgqfuy4ig9qilavz20n3o2e7afje',
+  clientId: '8q7d0oi2eyb4xu5cp6iiyd9xhpp9w4',
   authUrl: 'https://id.twitch.tv/oauth2/authorize',
-  redirectUrl: 'https://valarep-2023.netlify.app/auth/authorize',
+  redirectUrl: 'https://angular-app-twitch.netlify.app/auth/authorize',
   baseUrl: 'https://api.twitch.tv/helix',
 };
 
@@ -11,7 +11,7 @@ const oAuthConfig = {
 
 export const environment = {
   production: true,
-  api: {...apiConfig, ...oAuthConfig},
+  api: { ...apiConfig, ...oAuthConfig },
   twitch: {
     streamPlayerUrl: 'https://player.twitch.tv/?parent=valarep-2023.netlify.app&channel=',
     clipPlayerUrl: 'https://clips.twitch.tv/embed?parent=valarep-2023.netlify.app&clip=',

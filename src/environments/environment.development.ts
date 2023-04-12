@@ -1,5 +1,5 @@
 const apiConfig = {
-  clientId: 'efrmnqokv2zxydq5aqco0p3i0tqpg4',
+  clientId: '19zpd5y1c8othuyklksgym9idfp28r',
   authUrl: 'https://id.twitch.tv/oauth2/authorize',
   redirectUrl: 'http://localhost:4200/auth/authorize',
   baseUrl: 'https://api.twitch.tv/helix',
@@ -11,7 +11,7 @@ const oAuthConfig = {
 
 export const environment = {
   production: false,
-  api: {...apiConfig, ...oAuthConfig},
+  api: { ...apiConfig, ...oAuthConfig },
   twitch: {
     streamPlayerUrl: 'https://player.twitch.tv/?parent=localhost&channel=',
     clipPlayerUrl: 'https://clips.twitch.tv/embed?parent=localhost&clip=',
